@@ -17,7 +17,7 @@ def addition(limit):
 
 def subtraction():
     # Subtraction
-    print("Subtraction")
+    print("Subtraction \n Program will take biggest number input. \n Will not generate negative numbers.")
     number = float(input("Input first number for subtraction: "))
     number2 = float(input("Input second number for subtraction: "))
     if number > number2:
@@ -70,7 +70,7 @@ def floor_division():
     print("\n")
 
 def main():
-    print("The program goes through addition," + "then subtraction," + "then multiplication," + "then division," + "then modulus," + "then exponent," + "then floor division", sep=' ')
+    print("The program goes through addition," + "subtraction," + "multiplication," + "division," + "modulus," + "exponent," + " and floor division", sep=' ')
     user_continue = "x"
 
     while user_continue != "~" or user_choice != "`":
